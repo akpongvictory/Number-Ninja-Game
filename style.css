@@ -102,3 +102,8 @@ button:disabled{
   background: gray;
   cursor: not-allowed;
 }
+
+#score,
+#bestScore{
+  font-weight: bold;
+}
