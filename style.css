@@ -79,10 +79,6 @@ button:hover {
   background: #2563eb;
 }
 
-button:hover{
-  background: #141e30;
-}
-
 
 #message{
   margin-top: 20px;
@@ -95,9 +91,11 @@ button:hover{
 }
 
 #resetBtn {
-  background: crimson;
+  background: rgb(156, 86, 100);
 }
-
+#resetBtn:hover {
+background: #2563eb;
+}
 button:disabled{
   background: gray;
   cursor: not-allowed;
@@ -106,4 +104,47 @@ button:disabled{
 #score,
 #bestScore{
   font-weight: bold;
+}
+
+select{
+  padding:10px;
+  border-radius:8px;
+  margin-bottom:10px;
+  border: 2px solid #667999; 
+  
+}
+
+@media (max-width: 600px){
+
+  .container{
+
+    width: 90%;
+
+    padding: 20px;
+
+  }
+
+
+  h1{
+    font-size: 28px;
+  }
+
+
+  input,
+  button,
+  select{
+
+    width: 100%;
+
+    margin-top: 10px;
+
+    box-sizing: border-box;
+
+  }
+
+
+  button{
+    font-size: 15px;
+  }
+
 }
