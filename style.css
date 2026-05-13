@@ -217,15 +217,25 @@ button:hover{
 
 @media(max-width:600px){
 
+  body {
+    padding: 30px;
+  }
+
   .welcome-screen,
   .game-screen,
   .result-screen{
     width:90%;
+    
   }
+
+
+
+
 
 }
 
-@media (max-width: 600px){
+
+/* @media (max-width: 600px){
 
   body{
     padding: 30px;
@@ -264,4 +274,4 @@ button:hover{
     padding: 10px;
   }
 
-}
+} */
