@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <div class="container">
+    <!-- <div class="container">
 
         <h1>NumberNinja</h1>
 
@@ -35,6 +35,64 @@
         <p id="bestscore">Best Score: 0</p>
 
     </div>
+ -->
+
+ <div class="welcome-screen">
+
+  <h1>🎯NumberNinja</h1>
+
+  <p>Select Difficulty</p>
+
+  <select id="difficulty">
+    <option value="10">Easy</option>
+    <option value="50">Medium</option>
+    <option value="100">Hard</option>
+  </select>
+
+  <button id="startBtn">Start Game</button>
+
+</div>
+
+
+
+<div class="game-screen hidden">
+
+  <h1>🎮 Number Ninja</h1>
+
+  <p id="rangeText">Guess a number between 1 and 10</p>
+
+  <h2 id="timer">30</h2>
+
+  <input type="number" id="guessInput">
+
+  <button id="guessBtn">Guess</button>
+
+  <p id="message"></p>
+
+  <p id="attempts">Attempts: 0</p>
+
+  <p id="score">Score: 0</p>
+
+</div>
+
+
+
+<div class="result-screen hidden">
+
+  <h1>🏆 Game Over</h1>
+  <p>The secret number was <span id="correctNumber"></span></p>
+
+  <p id="finalMessage"></p>
+
+  <p id="finalAttempts"></p>
+
+  <p id="finalScore"></p>
+
+  <button id="playAgainBtn">Play Again</button>
+
+</div>
+
+
 
 <script src="script.js"></script>
 
